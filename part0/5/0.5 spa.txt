@@ -1,0 +1,20 @@
+title 0.5: Aplicación de una sola página
+
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+Server-->Browser: HMTL-Code
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Server-->Browser: main.css
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+Server-->Browser: spa.js
+note left of Browser: browser starts executing js-code that request JSON data from server
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server-->Browser: data.json
+note left of Browser: browser executes the event handler that render notes to display
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/favicon.ico
+Server-->Browser: image
+note left of Browser: browser display the image file favicon.ico 
+
+
+
+
+

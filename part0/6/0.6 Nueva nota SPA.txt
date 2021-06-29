@@ -1,0 +1,12 @@
+title 0.6: Nueva nota SPA
+
+note left of Browser: browser updates the list of notes 
+note left of Browser: browser send the new note data to the server   
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note right of Server: server adds the new note to the note array 
+
+
+
+
+
+
